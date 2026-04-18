@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/hayden-leung/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Hayden_Leung-0A66C2?logo=linkedin&logoColor=white"></a>
-  <img alt="Columbia" src="https://img.shields.io/badge/Columbia-CS_'28-9BCBEB">
+  <a href="https://www.columbia.edu/"><img alt="Columbia" src="https://img.shields.io/badge/Columbia-CS_'28-9BCBEB"></a>
 </p>
 
 ---
