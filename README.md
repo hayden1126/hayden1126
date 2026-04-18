@@ -28,7 +28,7 @@
 - 📄 Lead author, **IEEE IRI 2023** — graph-theoretic analysis of encyclopedia knowledge graphs
 - **Centre for Novostics** — applied LLMs to genomic datasets for cancer detection
 - **FundamentalVR** — VR surgical simulation with haptic feedback (Unity / C#)
-- **ASTRI** — 5G test automation; sole high-school admit (90 interns / 3,000+ applicants)
+- **ASTRI** — end-to-end 5G test automation; sole high-school admit (90 interns / 3,000+ applicants)
 
 ### 🧗 Off-screen
 
