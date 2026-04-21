@@ -3,10 +3,10 @@
   <sub>NLP · Computational Biology</sub>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://www.linkedin.com/in/hayden-leung/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Hayden_Leung-0A66C2?logo=linkedin&logoColor=white"></a>
   <a href="https://www.columbia.edu/"><img alt="Columbia" src="https://img.shields.io/badge/Columbia-CS_'28-9BCBEB"></a>
-</p>
+</p> -->
 
 
 - **Co-founder, ResearcherX** — AI document editor + logic-validation engine on GraphRAG and Neo4j.
