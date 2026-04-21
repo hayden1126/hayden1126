@@ -19,6 +19,4 @@
 - **FundamentalVR** — VR surgical simulation with haptic feedback (Unity / C#)
 - **ASTRI** — end-to-end 5G test automation; sole high-school admit (90 interns / 3,000+ applicants)
 
----
-
 <p align="center"><sub>More on <a href="https://www.linkedin.com/in/hayden-leung/">LinkedIn</a></sub></p>
