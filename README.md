@@ -1,5 +1,3 @@
-<h1 align="center">Hayden Leung</h1>
-
 <p align="center">
   <em>CS @ Columbia '28 · Building deterministic verification for AI-assisted research</em><br/>
   <sub>NLP · Computational Biology</sub>
