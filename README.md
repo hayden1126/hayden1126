@@ -9,12 +9,13 @@
 </p> -->
 
 
-- **Co-founder, ResearcherX** — AI document editor + logic-validation engine on GraphRAG and Neo4j.
+- **Co-founder, ResearcherX**: AI document editor + logic-validation engine on GraphRAG and Neo4j.
   Top-6 / $25K at the Millard Chan '99 Technology Challenge (only undergrad-led finalist); 2nd place, Columbia startup club.
-- **TA, ENGI 1006** — Columbia's largest intro CS course (~220 students).
-- 📄 Lead author, **IEEE IRI 2023** — graph-theoretic analysis of encyclopedia knowledge graphs
-- **Centre for Novostics** — applied LLMs to genomic datasets for cancer detection
-- **FundamentalVR** — VR surgical simulation with haptic feedback (Unity / C#)
-- **ASTRI** — end-to-end 5G test automation; sole high-school admit (90 interns / 3,000+ applicants)
+- 🔧 **Open-source AI tooling**: [sourced](https://github.com/hayden1126/sourced) and [DocAgent](https://github.com/hayden1126/DocAgent) (on PyPI), agents that verify every claim against a real source.
+- 📄 **Co-author, MINA** (under review): do DNA language models encode gene function?
+- 📄 Lead author, **IEEE IRI 2023**: graph-theoretic analysis of encyclopedia knowledge graphs
+- **TA, ENGI 1006**: Columbia's largest intro CS course (~220 students).
+- **Centre for Novostics**: applied LLMs to genomic datasets for cancer detection
+- **FundamentalVR**: VR surgical simulation with haptic feedback (Unity / C#)
 
 <p align="center"><sub>More on <a href="https://www.linkedin.com/in/hayden-leung/">LinkedIn</a></sub></p>
