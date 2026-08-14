@@ -10,7 +10,8 @@ I build **grounded** AI systems and do ML research in computational biology.
 
 ## Building
 
-- **ResearcherX** (co-founder): an AI-native word processor that keeps a live knowledge graph of every claim, entity, and source in a document and lints new writing against it, flagging contradictions as you type, with GraphRAG chat. 2nd place at Lion's Cage (Columbia VC &amp; Entrepreneurship Group) and a Top-6 finalist at the Millard Chan '99 Technology Challenge, the only undergraduate-led team in both finals.
+- **Capella** (founding member, stealth): a gamified investing app for a younger generation.
+- **ResearcherX** (co-founder): an AI-native word processor that lints your writing against a live knowledge graph of its own claims and sources. 2nd at Lion's Cage and a Top-6 finalist at the Millard Chan '99 Technology Challenge (the only undergraduate-led team in both).
 
 ## Research
 
