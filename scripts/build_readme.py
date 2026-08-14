@@ -1,36 +1,51 @@
 """Refresh the auto-updating region of README.md from primary sources.
 
-Pulls the latest GitHub Release of each public repo via the GraphQL API and rewrites
-the block between the `releases` markers. Standard library only (no pip dependencies),
-so nothing can break in CI. Deterministic: stable ordering, no run timestamps, and the
-file is only rewritten when the rendered content actually changes.
+Pulls the user's most recently pushed public repos via the GitHub GraphQL API and
+rewrites the `active` marker block. Repos already featured in the curated sections
+are excluded so nothing appears twice on the page. Standard library only (no pip
+dependencies), so nothing can break in CI. Deterministic: stable ordering, no run
+timestamps, and the file is only rewritten when the rendered content actually changes.
 """
 
 import json
 import os
 import re
 import sys
-import urllib.error
 import urllib.request
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 README = REPO_ROOT / "README.md"
-MARKER = "releases"
 LOGIN = "hayden1126"
 GRAPHQL_URL = "https://api.github.com/graphql"
-MAX_ITEMS = 5
+MAX_ACTIVE = 6
+# Kept out of the live list: the profile repo itself, repos already curated above
+# (DocAgent, sourced), a redundant submission snapshot (PaperRec-submission duplicates
+# PaperRec), and puzzle/coursework throwaways.
+EXCLUDE = {
+    LOGIN,
+    "DocAgent",
+    "sourced",
+    "PaperRec-submission",
+    "adventofcode2022",
+    "adventofcode2023",
+    "adventofcode2025",
+    "AdventOfCodeSchool",
+    "hackathonproblems",
+}
 
 QUERY = """
 query($login: String!) {
   user(login: $login) {
-    repositories(first: 100, privacy: PUBLIC, isFork: false, ownerAffiliations: [OWNER]) {
+    repositories(first: 100, privacy: PUBLIC, isFork: false,
+                 ownerAffiliations: [OWNER],
+                 orderBy: {field: PUSHED_AT, direction: DESC}) {
       nodes {
         name
         url
-        releases(first: 1, orderBy: {field: CREATED_AT, direction: DESC}) {
-          nodes { tagName publishedAt url }
-        }
+        description
+        pushedAt
+        primaryLanguage { name }
       }
     }
   }
@@ -38,8 +53,8 @@ query($login: String!) {
 """
 
 
-def fetch_releases(token: str) -> list[dict]:
-    """Return each public repo's latest release, newest first."""
+def fetch_repos(token: str) -> list[dict]:
+    """Return the user's public source repos, most recently pushed first."""
     payload = json.dumps({"query": QUERY, "variables": {"login": LOGIN}}).encode()
     request = urllib.request.Request(
         GRAPHQL_URL,
@@ -54,33 +69,25 @@ def fetch_releases(token: str) -> list[dict]:
         body = json.load(response)
     if "errors" in body:
         raise RuntimeError(f"GraphQL errors: {body['errors']}")
+    return body["data"]["user"]["repositories"]["nodes"]
 
-    releases = []
-    for repo in body["data"]["user"]["repositories"]["nodes"]:
-        nodes = repo["releases"]["nodes"]
-        if not nodes:
+
+def render_active(repos: list[dict]) -> str:
+    """Recently pushed repos, excluding those curated elsewhere on the page."""
+    lines = []
+    for repo in repos:
+        # A repo earns a spot only if it is not excluded and carries a description;
+        # bare repos stay hidden until they get one.
+        if repo["name"] in EXCLUDE or not repo["description"]:
             continue
-        release = nodes[0]
-        releases.append(
-            {
-                "name": repo["name"],
-                "repo_url": repo["url"],
-                "tag": release["tagName"],
-                "date": release["publishedAt"][:10],
-                "release_url": release["url"],
-            }
-        )
-    releases.sort(key=lambda r: (r["date"], r["name"]), reverse=True)
-    return releases[:MAX_ITEMS]
-
-
-def render(releases: list[dict]) -> str:
-    """Render the releases as a markdown list."""
-    lines = [
-        f'- **[{r["name"]}]({r["repo_url"]})** '
-        f'[`{r["tag"]}`]({r["release_url"]}) &middot; {r["date"]}'
-        for r in releases
-    ]
+        parts = [f"**[{repo['name']}]({repo['url']})**"]
+        if repo["primaryLanguage"]:
+            parts.append(f"`{repo['primaryLanguage']['name']}`")
+        parts.append(repo["description"].strip().replace("\n", " "))
+        parts.append(repo["pushedAt"][:10])
+        lines.append("- " + " &middot; ".join(parts))
+        if len(lines) == MAX_ACTIVE:
+            break
     return "\n".join(lines)
 
 
@@ -97,19 +104,19 @@ def main() -> None:
     if not token:
         sys.exit("GITHUB_TOKEN is not set")
 
-    releases = fetch_releases(token)
-    if not releases:
-        print("No releases found; leaving README unchanged.")
+    repos = fetch_repos(token)
+    if not repos:
+        print("No repositories returned; leaving README unchanged.")
         return
 
     content = README.read_text()
-    updated = replace_chunk(content, MARKER, render(releases))
+    updated = replace_chunk(content, "active", render_active(repos))
     if updated == content:
         print("README already current; no change.")
         return
 
     README.write_text(updated)
-    print(f"Updated README with {len(releases)} release(s).")
+    print("Updated README live region.")
 
 
 if __name__ == "__main__":

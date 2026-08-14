@@ -24,10 +24,17 @@ Agents that verify every claim against a real source, on a deterministic-first p
 - **[DocAgent](https://github.com/hayden1126/DocAgent)**: generates a whole repository's documentation set (README, AGENTS.md, CLAUDE.md, how-to guides, API reference, llms.txt) and verifies every statement against the actual source. Shipped to PyPI as `docagent-ai`.
 - **[sourced](https://github.com/hayden1126/sourced)**: a framework and CLI for writing academic papers with the model in the loop, where every citation is verified and full-text-checked and the author's voice survives.
 
-**Latest release**
-<!-- releases:start -->
-- **[DocAgent](https://github.com/hayden1126/DocAgent)** [`v1.0.4`](https://github.com/hayden1126/DocAgent/releases/tag/v1.0.4) &middot; 2026-05-19
-<!-- releases:end -->
+## Recently active
+
+_Recently pushed public repos, refreshed daily from the GitHub API._
+
+<!-- active:start -->
+- **[dotclaude](https://github.com/hayden1126/dotclaude)** &middot; `Python` &middot; Portable snapshot of my Claude Code setup: settings, hooks, statusline, custom agents, plugin manifest, and sync script. &middot; 2026-08-08
+- **[apocalypto](https://github.com/hayden1126/apocalypto)** &middot; `Python` &middot; Offline navigation for disaster and civil-unrest zones (no internet, degraded GPS). Research phase. &middot; 2026-08-08
+- **[PaperRec](https://github.com/hayden1126/PaperRec)** &middot; `TeX` &middot; Final Project under MATHUN2015 Linear Algebra &middot; 2026-04-26
+- **[bbs](https://github.com/hayden1126/bbs)** &middot; `C` &middot; Solver for Block Blast written in C &middot; 2026-04-26
+- **[wordle-solver](https://github.com/hayden1126/wordle-solver)** &middot; `Julia` &middot; Wordle Solver is a CLI-based program that assists solving the Wordle game. &middot; 2026-04-17
+<!-- active:end -->
 
 ## Teaching
 
@@ -37,4 +44,4 @@ Agents that verify every claim against a real source, on a deterministic-first p
 
 [`LinkedIn`](https://www.linkedin.com/in/hayden-leung/) &middot; [`Email`](mailto:haydenleung1126@gmail.com)
 
-<sub>This README refreshes its "latest release" line from the GitHub API on a daily <a href="https://github.com/hayden1126/hayden1126/blob/main/.github/workflows/build-readme.yml">Action</a>. No third-party widgets; every asset is generated and committed in this repo.</sub>
+<sub>The "Recently active" list refreshes daily from the GitHub API via a <a href="https://github.com/hayden1126/hayden1126/blob/main/.github/workflows/build-readme.yml">GitHub Action</a>. No third-party widgets; every asset is generated and committed in this repo.</sub>
