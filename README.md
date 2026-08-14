@@ -11,19 +11,17 @@ I build **grounded** AI systems and do ML research in computational biology.
 ## Building
 
 - **Capella** (founding member): stealth startup.
-- **ResearcherX** (co-founder): an AI-native word processor that lints your writing against a live knowledge graph of its own claims and sources. 2nd at Lion's Cage and a Top-6 finalist at the Millard Chan '99 Technology Challenge (the only undergraduate-led team in both).
+- **ResearcherX** (co-founder): an AI word processor that maps a document's claims and sources into a live knowledge graph and flags contradictions as you write. Top-6 at the Millard Chan '99 Challenge; 2nd at Lion's Cage.
 
 ## Research
 
-- **MINA** (co-author): do frozen DNA language models encode gene function? Linear probes show their embeddings expose protein-_compositional_ signal from coding sequence, not robust gene-function signal. Accepted to **iscbAI 2026 for an oral presentation** (ISCB AI, Bali, Aug 2026) and recommended to _Quantitative Biology_ (Wiley).
-- **IEEE IRI 2023** (lead author): a graph-theoretic analysis of encyclopedia knowledge graphs (k-core / k-degeneracy structure).
+- **MINA** (co-author): frozen DNA language models encode protein composition, not gene function. Oral at **iscbAI 2026**; recommended to _Quantitative Biology_ (Wiley).
+- **[IEEE IRI 2023](https://doi.org/10.1109/IRI58017.2023.00051)**: the first k-core visualization of all of Wikipedia, plus a link-graph method for auto-building learning paths. Co-led the five-person team and presented the paper.
 
 ## Open-source tooling
 
-Agents that verify every claim against a real source, on a deterministic-first pipeline.
-
-- **[DocAgent](https://github.com/hayden1126/DocAgent)**: generates a whole repository's documentation set (README, AGENTS.md, CLAUDE.md, how-to guides, API reference, llms.txt) and verifies every statement against the actual source. Shipped to PyPI as `docagent-ai`.
-- **[sourced](https://github.com/hayden1126/sourced)**: a framework and CLI for writing academic papers with the model in the loop, where every citation is verified and full-text-checked and the author's voice survives.
+- **[DocAgent](https://github.com/hayden1126/DocAgent)** (`docagent-ai` on PyPI): generates a repository's entire documentation set, with every statement grounded in the actual source.
+- **[sourced](https://github.com/hayden1126/sourced)**: writes papers with verified, full-text-checked citations (no fabrications), preserves your voice, and exports to Word, Google Docs, Markdown, or LaTeX in 5 citation styles.
 
 ## Recently active
 
@@ -39,7 +37,7 @@ _Recently pushed public repos, refreshed daily from the GitHub API._
 
 ## Teaching
 
-- **TA, ENGI 1006**: Columbia's largest introductory computing course (~220 students).
+- **TA, ENGI 1006**: Columbia's largest intro CS course (~220 students).
 
 ## Elsewhere
 
