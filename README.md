@@ -10,7 +10,7 @@ I build **grounded** AI systems and do ML research in computational biology.
 
 ## Building
 
-- **Capella** (founding member, stealth): a gamified investing app for a younger generation.
+- **Capella** (founding member): stealth startup.
 - **ResearcherX** (co-founder): an AI-native word processor that lints your writing against a live knowledge graph of its own claims and sources. 2nd at Lion's Cage and a Top-6 finalist at the Millard Chan '99 Technology Challenge (the only undergraduate-led team in both).
 
 ## Research
