@@ -6,7 +6,7 @@
 
 _Computer Science (＋ Biomedical Engineering &amp; Linguistics) at Columbia · New York_
 
-I build AI systems whose output is **verified against ground truth**, not trusted blindly: agents that check every claim against a real source, research that holds up to adversarial rigor, and tooling I ship end to end.
+I build **grounded** AI systems and do ML research in computational biology.
 
 ## Building
 
