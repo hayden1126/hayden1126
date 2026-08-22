@@ -15,7 +15,7 @@ I build **grounded** AI systems and do ML research in computational biology.
 
 ## Research
 
-- **MINA** (co-author): frozen DNA language models encode protein composition, not gene function. Oral at **iscbAI 2026**; recommended to _Quantitative Biology_ (Wiley).
+- **MINA** (co-author): frozen DNA language models encode protein composition, not gene function. **Spotlight at MLCB 2026** (PMLR proceedings); oral at **iscbAI 2026**.
 - **[IEEE IRI 2023](https://doi.org/10.1109/IRI58017.2023.00051)**: the first k-core visualization of all of Wikipedia, plus a link-graph method for auto-building learning paths. Co-led the five-person team and presented the paper.
 
 ## Open-source tooling
