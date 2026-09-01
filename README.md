@@ -37,7 +37,7 @@ _Recently pushed public repos, refreshed daily from the GitHub API._
 
 ## Teaching
 
-- **TA, ENGI 1006**: Columbia's largest intro CS course (~220 students).
+- **TA, ENGI 1006** (Jan–May 2026; shortlisted to return Fall 2026): Columbia's largest intro CS course (~220 students).
 
 ## Elsewhere
 
