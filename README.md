@@ -28,7 +28,7 @@ I build **grounded** AI systems and do ML research in computational biology.
 _Recently pushed public repos, refreshed daily from the GitHub API._
 
 <!-- active:start -->
-- **[shodo](https://github.com/hayden1126/shodo)** &middot; `TypeScript` &middot; Shodō: AI calligraphy with editable vector brush strokes. Solo hackathon submission by Hayden Leung. &middot; 2026-09-10
+- **[shodo](https://github.com/hayden1126/shodo)** &middot; `TypeScript` &middot; Shodō: AI calligraphy with editable vector brush strokes. Solo hackathon submission by Hayden Leung. &middot; 2026-09-12
 - **[notebook-world](https://github.com/hayden1126/notebook-world)** &middot; An illustrated narrative sandbox where a mysterious notebook brings objects and executable world laws into being. ResearcherX hackathon build. &middot; 2026-09-10
 - **[apocalypto](https://github.com/hayden1126/apocalypto)** &middot; `Python` &middot; Offline navigation for disaster and civil-unrest zones (no internet, degraded GPS). Research phase. &middot; 2026-09-01
 - **[dotclaude](https://github.com/hayden1126/dotclaude)** &middot; `Python` &middot; Portable snapshot of my Claude Code setup: settings, hooks, statusline, custom agents, plugin manifest, and sync script. &middot; 2026-08-24
