@@ -28,12 +28,12 @@ I build **grounded** AI systems and do ML research in computational biology.
 _Recently pushed public repos, refreshed daily from the GitHub API._
 
 <!-- active:start -->
+- **[hq](https://github.com/hayden1126/hq)** &middot; `Shell` &middot; A self-organizing home directory with a Claude Code routing agent: registry, lifecycle scripts, and MCP source routing. &middot; 2026-09-23
 - **[dotclaude](https://github.com/hayden1126/dotclaude)** &middot; `Python` &middot; Portable snapshot of my Claude Code setup: settings, hooks, statusline, custom agents, plugin manifest, and sync script. &middot; 2026-09-22
 - **[shodo](https://github.com/hayden1126/shodo)** &middot; `TypeScript` &middot; Shodō: AI calligraphy with editable vector brush strokes. Solo hackathon submission by Hayden Leung. &middot; 2026-09-12
 - **[apocalypto](https://github.com/hayden1126/apocalypto)** &middot; `Python` &middot; Offline navigation for disaster and civil-unrest zones (no internet, degraded GPS). Research phase. &middot; 2026-09-01
 - **[PaperRec](https://github.com/hayden1126/PaperRec)** &middot; `TeX` &middot; Personalized-PageRank recommender for academic papers: seed one paper, it builds the citation ego-network (via Semantic Scholar) and ranks the most structurally relevant reads. Columbia MATH UN2015. &middot; 2026-04-26
 - **[bbs](https://github.com/hayden1126/bbs)** &middot; `C` &middot; Solver for Block Blast written in C &middot; 2026-04-26
-- **[wordle-solver](https://github.com/hayden1126/wordle-solver)** &middot; `Julia` &middot; Wordle Solver is a CLI-based program that assists solving the Wordle game. &middot; 2026-04-17
 <!-- active:end -->
 
 ## Teaching
