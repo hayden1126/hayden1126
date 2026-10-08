@@ -28,7 +28,7 @@ I build **grounded** AI systems and do ML research in computational biology.
 _Recently pushed public repos, refreshed daily from the GitHub API._
 
 <!-- active:start -->
-- **[dotclaude](https://github.com/hayden1126/dotclaude)** &middot; `Python` &middot; Portable snapshot of my Claude Code setup: settings, hooks, statusline, custom agents, plugin manifest, and sync script. &middot; 2026-10-07
+- **[dotclaude](https://github.com/hayden1126/dotclaude)** &middot; `Python` &middot; Portable snapshot of my Claude Code setup: settings, hooks, statusline, custom agents, plugin manifest, and sync script. &middot; 2026-10-08
 - **[hq](https://github.com/hayden1126/hq)** &middot; `Shell` &middot; A self-organizing home directory with a Claude Code routing agent: registry, lifecycle scripts, and MCP source routing. &middot; 2026-09-30
 - **[shodo](https://github.com/hayden1126/shodo)** &middot; `TypeScript` &middot; Shodō: AI calligraphy with editable vector brush strokes. Solo hackathon submission by Hayden Leung. &middot; 2026-09-12
 - **[apocalypto](https://github.com/hayden1126/apocalypto)** &middot; `Python` &middot; Offline navigation for disaster and civil-unrest zones (no internet, degraded GPS). Research phase. &middot; 2026-09-01
