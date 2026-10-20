@@ -32,12 +32,12 @@ I build **grounded** AI systems and do ML research in computational biology. Ope
 _Recently pushed public repos, refreshed daily from the GitHub API._
 
 <!-- active:start -->
-- **[dotclaude](https://github.com/hayden1126/dotclaude)** &middot; `Python` &middot; Portable snapshot of my Claude Code setup: settings, hooks, statusline, custom agents, plugin manifest, and sync script. &middot; 2026-10-19
-- **[hq](https://github.com/hayden1126/hq)** &middot; `Shell` &middot; A self-organizing home directory with a Claude Code routing agent: registry, lifecycle scripts, and MCP source routing. &middot; 2026-10-13
 - **[shodo](https://github.com/hayden1126/shodo)** &middot; `TypeScript` &middot; Shodō: AI calligraphy with editable vector brush strokes. Solo hackathon submission by Hayden Leung. &middot; 2026-09-12
-- **[apocalypto](https://github.com/hayden1126/apocalypto)** &middot; `Python` &middot; Offline navigation for disaster and civil-unrest zones (no internet, degraded GPS). Research phase. &middot; 2026-09-01
+- **[apocalypto](https://github.com/hayden1126/apocalypto)** &middot; `Python` &middot; Offline phone navigation for disaster and civil-unrest zones (no internet, degraded GPS): Rust core, Flutter shell. &middot; 2026-09-01
+- **[DocAgent](https://github.com/hayden1126/DocAgent)** &middot; `Python` &middot; A repository documentation agent for humans and coding agents. Reads existing repos, writes README + AGENTS.md + CLAUDE.md + llms.txt + docs with grounded citations, verified by a deterministic-first pipeline. &middot; 2026-05-19
+- **[drawdown-atlas](https://github.com/hayden1126/drawdown-atlas)** &middot; `Python` &middot; Finds every S&P 500 peak-to-trough drawdown of 10% or more and, using point-in-time index membership, reports the constituents that held up best in each. &middot; 2026-05-18
 - **[PaperRec](https://github.com/hayden1126/PaperRec)** &middot; `TeX` &middot; Personalized-PageRank recommender for academic papers: seed one paper, it builds the citation ego-network (via Semantic Scholar) and ranks the most structurally relevant reads. Columbia MATH UN2015. &middot; 2026-04-26
-- **[bbs](https://github.com/hayden1126/bbs)** &middot; `C` &middot; Solver for Block Blast written in C &middot; 2026-04-26
+- **[bbs](https://github.com/hayden1126/bbs)** &middot; `C` &middot; Bitboard solver for the puzzle game Block Blast, in C11: the 8x8 board is one 64-bit integer; brute-forces the best placement for each three-piece turn. &middot; 2026-04-26
 <!-- active:end -->
 
 ## Earlier
