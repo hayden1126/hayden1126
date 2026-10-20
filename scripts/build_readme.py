@@ -20,12 +20,13 @@ LOGIN = "hayden1126"
 GRAPHQL_URL = "https://api.github.com/graphql"
 MAX_ACTIVE = 6
 # Kept out of the live list: the profile repo itself, repos already curated above
-# (DocAgent, sourced), a redundant submission snapshot (PaperRec-submission duplicates
+# (sourced, dotclaude, hq), a redundant submission snapshot (PaperRec-submission duplicates
 # PaperRec), and puzzle/coursework throwaways.
 EXCLUDE = {
     LOGIN,
-    "DocAgent",
     "sourced",
+    "dotclaude",
+    "hq",
     "PaperRec-submission",
     "adventofcode2022",
     "adventofcode2023",
