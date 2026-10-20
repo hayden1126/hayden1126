@@ -4,24 +4,28 @@
   <img alt="Hayden Leung: CS @ Columbia '28, AI/ML founder, researcher" src="assets/hero-light.svg" width="600">
 </picture>
 
-_Computer Science (＋ Biomedical Engineering &amp; Linguistics) at Columbia · New York_
+_Computer Science at Columbia, minors in Biomedical Engineering and Linguistics · New York_
 
-I build **grounded** AI systems and do ML research in computational biology.
+I build **grounded** AI systems and do ML research in computational biology. Open to Summer 2027 SWE, forward-deployed and AI engineering internships.
 
 ## Building
 
-- **Capella** (founding member): stealth startup.
-- **ResearcherX** (co-founder): an AI word processor that maps a document's claims and sources into a live knowledge graph and flags contradictions as you write. Top-6 at the Millard Chan '99 Challenge; 2nd at Lion's Cage.
+- **Project Capella** (co-founder and founding engineer): a pre-launch fintech-education startup. I lead engineering on Vulcan, the CMS our writers build lessons in; its 5 writers built 47 lessons (1,000+ blocks) in 4 weeks.
+
+## Summer 2026
+
+- **Capstone Capital** (AI automation engineer intern): AI automations and reporting pipelines for a hedge fund's trading desk.
+- **Saint Bella** (software engineer intern): an investor-briefing agent with citation checking.
 
 ## Research
 
-- **MINA** (co-author): frozen DNA language models encode protein composition, not gene function. **Spotlight at MLCB 2026** (PMLR proceedings); oral at **iscbAI 2026**.
+- **MINA** (co-author): a benchmark of whether frozen DNA-encoder embeddings beat plain sequence composition under linear probes. I owned the statistical-rigor, baselines and homology-split workstream. **Spotlight at MLCB 2026** (PMLR proceedings to appear); oral at **iscbAI 2026**.
 - **[IEEE IRI 2023](https://doi.org/10.1109/IRI58017.2023.00051)**: the first k-core visualization of all of Wikipedia, plus a link-graph method for auto-building learning paths. Co-led the five-person team and presented the paper.
 
-## Open-source tooling
+## Tooling
 
-- **[DocAgent](https://github.com/hayden1126/DocAgent)** (`docagent-ai` on PyPI): generates a repository's entire documentation set, with every statement grounded in the actual source.
-- **[sourced](https://github.com/hayden1126/sourced)**: writes papers with verified, full-text-checked citations (no fabrications), preserves your voice, and exports to Word, Google Docs, Markdown, or LaTeX in 5 citation styles.
+- **[sourced](https://github.com/hayden1126/sourced)**: a pipx-installable Claude Code framework and CLI for academic writing: citations verified against full text (no fabrications), paraphrase held to source scope, your voice preserved; exports to Word, Google Docs, Markdown or LaTeX in 5 citation styles. MIT.
+- **[dotclaude](https://github.com/hayden1126/dotclaude) + [hq](https://github.com/hayden1126/hq)**: my Claude Code setup. Role-scoped subagents with a policy hook on every subagent tool call, a sandboxed shell, and parallel sessions in git worktrees; hq is a routing agent that opens a session in the right project from a registry and reaches Notion and Google Workspace over MCP.
 
 ## Recently active
 
@@ -36,9 +40,10 @@ _Recently pushed public repos, refreshed daily from the GitHub API._
 - **[bbs](https://github.com/hayden1126/bbs)** &middot; `C` &middot; Solver for Block Blast written in C &middot; 2026-04-26
 <!-- active:end -->
 
-## Teaching
+## Earlier
 
-- **TA, ENGI 1006** (Jan–May 2026; shortlisted to return Fall 2026): Columbia's largest intro CS course (~220 students).
+- **ResearcherX** (co-founder, Feb–May 2026): an AI word processor that maps a document's claims and sources into a live knowledge graph and flags contradictions as you write. 2nd at Lion's Cage; top 6 at the Millard Chan '99 Technology Challenge.
+- **TA, ENGI 1006** (Jan–May 2026): Columbia's largest introductory computing course (~220 students).
 
 ## Elsewhere
 
