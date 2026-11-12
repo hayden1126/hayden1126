@@ -10,7 +10,7 @@ I build **grounded** AI systems and do ML research in computational biology. Ope
 
 ## Building
 
-- **Project Capella** (co-founder and founding engineer): a pre-launch fintech-education startup. I lead engineering on Vulcan, the CMS our writers build lessons in; its 5 writers built 47 lessons (1,000+ blocks) in 4 weeks.
+- **Project Capella** (co-founder and founding engineer): a pre-launch fintech-education startup. I lead engineering on Vulcan, the CMS our writers build lessons in: 400+ releases in 9 weeks, and an MCP server where every call runs under Postgres row-level security.
 
 ## Summer 2026
 
